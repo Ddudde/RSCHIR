@@ -1,25 +1,23 @@
 version: "3"
 
 services:
-  app:
+  client:
     build:
-      context: app
-    restart: always
+      context: client
     volumes:
-      - ./app/php:/var/www/html
+      - ./client:/var/www/html
     ports:
-      - 80:80
+      - 4542:80
     depends_on:
-      - db
-
-  db:
+      - bd
+      
+  bd:
     image: mysql
-    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
     ports:
       - 3306:3306
     volumes:
-      - ./data:/var/lib/mysql
-      - ./mysql:/docker-entrypoint-initdb.d
+      - ./bd/data:/var/lib/mysql
+      - ./bd:/docker-entrypoint-initdb.d
  

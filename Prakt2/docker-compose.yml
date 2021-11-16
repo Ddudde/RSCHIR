@@ -1,0 +1,20 @@
+version: '3'
+services:
+    drawer:
+        build: ./drawer
+        volumes:
+            - ./drawer:/var/www/html
+        ports:
+            - 4543:80
+    sortirovki:
+        build: ./sortirovki
+        volumes:
+            - ./sortirovki:/var/www/html
+        ports:
+            - 4544:80
+    uncom:
+        build: ./uncom
+        volumes:
+            - ./uncom:/var/www/html
+        ports:
+            - 4545:80
