@@ -1,0 +1,111 @@
+
+p	java:S116"VRename this field "ADMIN_PANEL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü§¯‹ûÿÿÿÿ
+g	java:S116	"MRename this field "HI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†—ûÍûÿÿÿÿ
+g	java:S116"RRename this field "SETTING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊŒÿÀ
+d	java:S116"PRename this field "THEME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ÂøF
+j	java:S116"PRename this field "LIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûû»ÿÿÿÿÿ
+d	java:S116"ORename this field "DARK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö÷œå
+h	java:S116"SRename this field "LANGUAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù·‹‚
+i	java:S116"ORename this field "NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ûúşÿÿÿÿ
+f	java:S116"QRename this field "UPDATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¡”à
+s	java:S116"YRename this field "ADMINISTRATORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«®‡Šşÿÿÿÿ
+j	java:S116"PRename this field "LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï×Òºøÿÿÿÿ
+h	java:S116"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öş™
+c	java:S116"ORename this field "SEND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äşÄ
+q	java:S116"\Rename this field "INTERESTING_FACTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Çñä
+e	java:S116"PRename this field "TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ®•Ô
+i	java:S116"ORename this field "TEXT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êàóëúÿÿÿÿ
+n	java:S116"TRename this field "URL_VIDEO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãà€–üÿÿÿÿ
+m	java:S116"SRename this field "NAMELESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û–óôûÿÿÿÿ
+s	java:S116"YRename this field "SEND_THIS_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü”ôÿÿÿÿÿ
+k	java:S116 "VRename this field "UPLOAD_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßûâÆ
+n	java:S116!"TRename this field "SEND_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òáô¥øÿÿÿÿ
+o	java:S116""ZRename this field "UPLOADING_FILES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÀ±·
+S
+java:S2387"8"ADMIN_PANEL" is the name of a field in "AbsDictionary".(Ü§¯‹ûÿÿÿÿ
+J
+java:S2387	"/"HI" is the name of a field in "AbsDictionary".(†—ûÍûÿÿÿÿ
+J
+java:S2387"4"SETTING" is the name of a field in "AbsDictionary".(ÊŒÿÀ
+G
+java:S2387"2"THEME" is the name of a field in "AbsDictionary".(›ÂøF
+M
+java:S2387"2"LIGHT" is the name of a field in "AbsDictionary".(ûû»ÿÿÿÿÿ
+G
+java:S2387"1"DARK" is the name of a field in "AbsDictionary".(Ö÷œå
+K
+java:S2387"5"LANGUAGE" is the name of a field in "AbsDictionary".(ù·‹‚
+L
+java:S2387"1"NAME" is the name of a field in "AbsDictionary".(¥Ûúşÿÿÿÿ
+I
+java:S2387"3"UPDATE" is the name of a field in "AbsDictionary".(Æ¡”à
+V
+java:S2387";"ADMINISTRATORS" is the name of a field in "AbsDictionary".(«®‡Šşÿÿÿÿ
+M
+java:S2387"2"LOGIN" is the name of a field in "AbsDictionary".(Ï×Òºøÿÿÿÿ
+K
+java:S2387"5"PASSWORD" is the name of a field in "AbsDictionary".(öş™
+F
+java:S2387"1"SEND" is the name of a field in "AbsDictionary".(äşÄ
+T
+java:S2387">"INTERESTING_FACTS" is the name of a field in "AbsDictionary".( Çñä
+H
+java:S2387"2"TITLE" is the name of a field in "AbsDictionary".(ƒ®•Ô
+L
+java:S2387"1"TEXT" is the name of a field in "AbsDictionary".(êàóëúÿÿÿÿ
+Q
+java:S2387"6"URL_VIDEO" is the name of a field in "AbsDictionary".(Ãà€–üÿÿÿÿ
+P
+java:S2387"5"NAMELESS" is the name of a field in "AbsDictionary".(û–óôûÿÿÿÿ
+V
+java:S2387";"SEND_THIS_FILE" is the name of a field in "AbsDictionary".(ü”ôÿÿÿÿÿ
+N
+java:S2387 "8"UPLOAD_FILE" is the name of a field in "AbsDictionary".(ßûâÆ
+Q
+java:S2387!"6"SEND_FILE" is the name of a field in "AbsDictionary".(Òáô¥øÿÿÿÿ
+R
+java:S2387""<"UPLOADING_FILES" is the name of a field in "AbsDictionary".(ğÀ±·
+r
+java:S1104"WMake ADMIN_PANEL a static final constant or non-public and provide accessors if needed.(Ü§¯‹ûÿÿÿÿ
+i
+java:S1104	"NMake HI a static final constant or non-public and provide accessors if needed.(†—ûÍûÿÿÿÿ
+i
+java:S1104"SMake SETTING a static final constant or non-public and provide accessors if needed.(ÊŒÿÀ
+f
+java:S1104"QMake THEME a static final constant or non-public and provide accessors if needed.(›ÂøF
+l
+java:S1104"QMake LIGHT a static final constant or non-public and provide accessors if needed.(ûû»ÿÿÿÿÿ
+f
+java:S1104"PMake DARK a static final constant or non-public and provide accessors if needed.(Ö÷œå
+j
+java:S1104"TMake LANGUAGE a static final constant or non-public and provide accessors if needed.(ù·‹‚
+k
+java:S1104"PMake NAME a static final constant or non-public and provide accessors if needed.(¥Ûúşÿÿÿÿ
+h
+java:S1104"RMake UPDATE a static final constant or non-public and provide accessors if needed.(Æ¡”à
+u
+java:S1104"ZMake ADMINISTRATORS a static final constant or non-public and provide accessors if needed.(«®‡Šşÿÿÿÿ
+l
+java:S1104"QMake LOGIN a static final constant or non-public and provide accessors if needed.(Ï×Òºøÿÿÿÿ
+j
+java:S1104"TMake PASSWORD a static final constant or non-public and provide accessors if needed.(öş™
+e
+java:S1104"PMake SEND a static final constant or non-public and provide accessors if needed.(äşÄ
+s
+java:S1104"]Make INTERESTING_FACTS a static final constant or non-public and provide accessors if needed.( Çñä
+g
+java:S1104"QMake TITLE a static final constant or non-public and provide accessors if needed.(ƒ®•Ô
+k
+java:S1104"PMake TEXT a static final constant or non-public and provide accessors if needed.(êàóëúÿÿÿÿ
+p
+java:S1104"UMake URL_VIDEO a static final constant or non-public and provide accessors if needed.(Ãà€–üÿÿÿÿ
+o
+java:S1104"TMake NAMELESS a static final constant or non-public and provide accessors if needed.(û–óôûÿÿÿÿ
+u
+java:S1104"ZMake SEND_THIS_FILE a static final constant or non-public and provide accessors if needed.(ü”ôÿÿÿÿÿ
+m
+java:S1104 "WMake UPLOAD_FILE a static final constant or non-public and provide accessors if needed.(ßûâÆ
+p
+java:S1104!"UMake SEND_FILE a static final constant or non-public and provide accessors if needed.(Òáô¥øÿÿÿÿ
+q
+java:S1104""[Make UPLOADING_FILES a static final constant or non-public and provide accessors if needed.(ğÀ±·

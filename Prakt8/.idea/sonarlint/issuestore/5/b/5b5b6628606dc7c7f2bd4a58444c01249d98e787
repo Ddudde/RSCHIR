@@ -1,0 +1,69 @@
+
+p	java:S116"VRename this field "ADMIN_PANEL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼…´äûÿÿÿÿ
+g	java:S116"MRename this field "HI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãá³¥ùÿÿÿÿ
+l	java:S116"RRename this field "SETTING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕøÛ¾úÿÿÿÿ
+j	java:S116	"PRename this field "THEME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ ¸Œüÿÿÿÿ
+j	java:S116
+"PRename this field "LIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àçò¥ıÿÿÿÿ
+i	java:S116"ORename this field "DARK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ³Çÿÿÿÿÿ
+m	java:S116"SRename this field "LANGUAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôê¦¤şÿÿÿÿ
+d	java:S116"ORename this field "NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ·í·
+f	java:S116"QRename this field "UPDATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¨ªÃ
+s	java:S116"YRename this field "ADMINISTRATORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÚ«ßùÿÿÿÿ
+e	java:S116"PRename this field "LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ïºŒ
+h	java:S116"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ±é–
+d	java:S116"ORename this field "SEND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹…Õ
+v	java:S116"\Rename this field "INTERESTING_FACTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¡Ÿ¹ıÿÿÿÿ
+j	java:S116"PRename this field "TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùˆëÎÿÿÿÿÿ
+d	java:S116"ORename this field "TEXT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÅÆ
+n	java:S116"TRename this field "URL_VIDEO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‚«Ãøÿÿÿÿ
+h	java:S116"SRename this field "NAMELESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­›Ö
+s	java:S116"YRename this field "SEND_THIS_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ïüøÿÿÿÿ
+k	java:S116"VRename this field "UPLOAD_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½©
+i	java:S116"TRename this field "SEND_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ôëê
+o	java:S116 "ZRename this field "UPLOADING_FILES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë…ü‰
+r
+java:S1104"WMake ADMIN_PANEL a static final constant or non-public and provide accessors if needed.(¼…´äûÿÿÿÿ
+i
+java:S1104"NMake HI a static final constant or non-public and provide accessors if needed.(Ãá³¥ùÿÿÿÿ
+n
+java:S1104"SMake SETTING a static final constant or non-public and provide accessors if needed.(ÕøÛ¾úÿÿÿÿ
+l
+java:S1104	"QMake THEME a static final constant or non-public and provide accessors if needed.(‰ ¸Œüÿÿÿÿ
+l
+java:S1104
+"QMake LIGHT a static final constant or non-public and provide accessors if needed.(Àçò¥ıÿÿÿÿ
+k
+java:S1104"PMake DARK a static final constant or non-public and provide accessors if needed.(Æ³Çÿÿÿÿÿ
+o
+java:S1104"TMake LANGUAGE a static final constant or non-public and provide accessors if needed.(ôê¦¤şÿÿÿÿ
+f
+java:S1104"PMake NAME a static final constant or non-public and provide accessors if needed.(Œ·í·
+h
+java:S1104"RMake UPDATE a static final constant or non-public and provide accessors if needed.(Û¨ªÃ
+u
+java:S1104"ZMake ADMINISTRATORS a static final constant or non-public and provide accessors if needed.(ĞÚ«ßùÿÿÿÿ
+g
+java:S1104"QMake LOGIN a static final constant or non-public and provide accessors if needed.(½ïºŒ
+j
+java:S1104"TMake PASSWORD a static final constant or non-public and provide accessors if needed.(Ğ±é–
+f
+java:S1104"PMake SEND a static final constant or non-public and provide accessors if needed.(‹…Õ
+x
+java:S1104"]Make INTERESTING_FACTS a static final constant or non-public and provide accessors if needed.(ò¡Ÿ¹ıÿÿÿÿ
+l
+java:S1104"QMake TITLE a static final constant or non-public and provide accessors if needed.(ùˆëÎÿÿÿÿÿ
+f
+java:S1104"PMake TEXT a static final constant or non-public and provide accessors if needed.(úÅÆ
+p
+java:S1104"UMake URL_VIDEO a static final constant or non-public and provide accessors if needed.(å‚«Ãøÿÿÿÿ
+j
+java:S1104"TMake NAMELESS a static final constant or non-public and provide accessors if needed.(­›Ö
+u
+java:S1104"ZMake SEND_THIS_FILE a static final constant or non-public and provide accessors if needed.(†ïüøÿÿÿÿ
+m
+java:S1104"WMake UPLOAD_FILE a static final constant or non-public and provide accessors if needed.(½©
+k
+java:S1104"UMake SEND_FILE a static final constant or non-public and provide accessors if needed.(™Ôëê
+q
+java:S1104 "[Make UPLOADING_FILES a static final constant or non-public and provide accessors if needed.(ë…ü‰

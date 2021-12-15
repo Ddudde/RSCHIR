@@ -1,0 +1,9 @@
+
+`
+java:S1128"ERemove this unused import 'com.example.java.modules.InterestingFact'.(Ø£µéÿÿÿÿÿ
+T
+java:S1128">Remove this unused import 'com.example.java.modules.UserInfo'.(ŠÓá¯
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ ‘¸ùÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ñõÉ

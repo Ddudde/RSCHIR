@@ -1,0 +1,82 @@
+#souvContainer{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(auto-fit, 190px);
+    grid-template-rows: repeat(2, 300px);
+}
+
+.souvenirs_p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    width: 100%;
+
+    font-family: var(--font);
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.souvenirs_elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    border-radius: 5px;
+    width: 190px;
+    height: 300px;
+    max-height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.souvenirs_img{
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+}
+.souvenirs_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+}
+
+.souvenirs_info_price{
+    height: 20px;
+    color: var(--blue_hover);
+}
+.souvenirs_info_text{
+    height: 40px;
+    color: #BDBDBD;
+}
+.souvenirs_info_buy{
+    background-color: var(--blue);
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    height: 30px;
+
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 0.9rem;
+    text-align: center;
+
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.souvenirs_info_buy:hover{
+    cursor: pointer;
+}
+.souvenirs_info_buy:active{
+    background-color: black;
+}
+
+

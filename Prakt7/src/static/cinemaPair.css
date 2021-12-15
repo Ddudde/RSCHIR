@@ -1,0 +1,87 @@
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background: #333a47;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background: #4A5CD9;
+}
+.pairBlock{
+    display: grid;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-rows: repeat(auto-fit, 250px);
+  
+    width: 100%;
+    max-width: 1700px;
+  }
+  .pair{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 2px;
+    margin-top: 0;
+    max-width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+  }
+  
+  .pair:hover{
+    box-shadow:inset 0px 0px 0px 1px var(--blue_hover);
+    cursor: pointer;
+  }
+
+  .info{
+    display: none;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    background-color: wheat;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: wheat;
+    font-family: var(--font);
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .vs{
+    width: 100%;
+    height: 40px;
+    color: wheat;
+    background-color: #101010;
+    font-family: var(--font);
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .pair:hover .info{
+    display: flex;
+    background-color: var(--blue_hover);
+    color: var(--white);
+  }
+  @media only screen and (min-width : 280px) and (max-width : 480px) {
+    .pairBlock{
+      grid-template-columns: repeat(auto-fit, 90%);
+    }
+    .pair{
+      background-size: contain;
+    }
+}

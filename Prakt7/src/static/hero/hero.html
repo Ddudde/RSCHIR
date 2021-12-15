@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="../buy/buy.css">
+    <link rel="stylesheet" href="../dialog/dialog.css">
+    <link rel="stylesheet" href="../souvenirs/souvenirs.css">
+    <link rel="stylesheet" href="../fonts_colors_data.css">
+</head>
+<body>
+    <header class="header">
+
+        <a href="../index.html" class="logo">
+             <img src="../svg/back.svg"></a>
+    
+        <div id="title">
+        </div>
+
+        <img src="../svg/basket.svg" class="logo" id="basket">
+      
+    
+    </header>
+
+<div id="content">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <div class="photo"></div>
+    </div>
+  
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <div class="photo"></div>
+      </div>
+  
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <div class="photo"></div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+  <div class="hero_info">
+      <pre id="hero_info_text"></pre>
+  </div>
+
+  <div class="btns">
+      <div class="btn">
+          <p>Создатель</p>
+          <a href="" target="_blank" id="btn_maker">Ошибка</a>
+      </div>
+      <div class="btn">
+        <p>Исполнитель</p>
+        <a href="" target="_blank" id="btn_actor">Ошибка</a>
+    </div>
+    <div class="btn">
+        <p>Фильм</p>
+        <a href="" target="_blank" id="btn_film">Ошибка</a>
+    </div>
+  </div>
+
+</div>
+<script src="../data.js"></script>
+<script src="hero.js"></script>
+<script src="../souvenirs/souvenirs.js"></script>
+<script src="../dialog/dialog.js"></script>
+<script src="../buy/buy.js"></script>
+</body>
+</html>

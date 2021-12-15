@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  proxy:
+    image: nginx:1.11
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./src/static:/etc/nginx/static
+  web:
+    build: 
+      context: .
+      dockerfile: php.Dockerfile
+    volumes:
+      - ./src/php:/var/www/html/php
+      - ./src/static/uploads:/var/www/uploads/
+    restart: always
+  db:
+    image: 'mysql:latest'
+    volumes: 
+      - ./init.sql:/data/application/init.sql
+    command: --init-file /data/application/init.sql
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+  redis:
+    image: "redis:alpine"

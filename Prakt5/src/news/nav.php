@@ -16,7 +16,7 @@
 	<div class="posl">
 		<ul class="ssubmenuu">
 			<li><a href="edit.html">Редактировать профиль</a></li>
-			<li><a href="index.html">Выход</a></li>
+			<li><a href="index.php">Выход</a></li>
 		</ul>
 	</div>
 </span>

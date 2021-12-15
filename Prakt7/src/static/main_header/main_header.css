@@ -1,0 +1,130 @@
+*{padding:0; margin:0;}
+:root{
+    --burgerTime: 1s;
+}
+
+
+.mainHeader{
+    position: fixed;
+    top: 0;  
+    z-index: 100;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, 160px);
+    grid-column-gap: 40px;
+    grid-template-rows: repeat(auto-fit, 50px);
+    width: 100%;   
+    background-color: var(--black_header);  
+}
+.mainHeaderTitle{
+    width: auto;
+    height: 40px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.mainHeaderTitle a{
+    line-height: 40px;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+.mainHeaderTitle:hover{
+    background-color: var(--blue_hover);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.mainHeaderMenu{
+    width: 100%;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+/* Бургер */
+#burgerLable{
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    background-color: black;
+}
+#burgerIcon{
+    width: 36px;
+    height: 32px;
+    background-image: url('../svg/arrow.svg');
+    transition: var(--burgerTime) all;
+}
+#burgerCheck{
+    display: none;
+}
+
+
+#burgerList{
+    position: absolute;
+    top: -70px;
+    width: 100%;
+    height: 120px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    transition: var(--burgerTime) all;
+}
+.burgerLine{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: none;
+}
+.burgerLink{
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.burgerLine:active{
+    background-color: var(--blue_hover);
+}
+.burgerLine:focus{
+    outline: 0;
+}
+
+/* Анимации */
+#burgerIcon.burgerAnimIcon{
+    transform: rotateZ(180deg);
+}
+#burgerList.burgerAnimList{
+    top: 50px;
+}
+
+
+
+@media only screen and (min-width : 0px) and (max-width : 480px) {
+    .mainHeader{
+        display: flex;
+    }
+    .mainHeaderTitle{
+        display: none;
+        background-color: tomato;
+    }
+    .mainHeaderMenu{
+        display: flex;
+    }
+}

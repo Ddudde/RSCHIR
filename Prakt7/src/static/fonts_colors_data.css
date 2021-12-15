@@ -1,0 +1,12 @@
+:root{
+    --blue:#145FDE;
+    --blue_hover:#23a8f5;
+    --black:#101010;
+    --black_header:#000000;
+    --background:#101010;
+    --font:'Montserrat,Quadrat Grotesk New',sans-serif;
+    --white:#fff;
+  }
+#plug{
+  width: 34px;
+}

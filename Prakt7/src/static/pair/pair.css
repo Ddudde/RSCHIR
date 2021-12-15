@@ -1,0 +1,118 @@
+*{padding:0; margin:0;}
+body{
+    background-color: #101010;
+  }
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: #333a47;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background: #4A5CD9;
+  }
+
+  header{
+    position: fixed;
+    top: 0;  
+    z-index: 100;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;   
+    height: 50px; 
+    background-color: black;  
+ }
+#title {
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 24px;
+}
+.logo{
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+.logo:first-child{
+    margin-left: 8px;
+}
+.logo:last-child{
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+
+#pairContent{
+    margin: 25px 15px 0 15px;
+    overflow: hidden;
+    width: calc(100% - 2 * 15px);
+    height: 100%;
+    background-color: var(--background);
+}
+
+/* Блок */
+.block{
+    min-height: calc(350px + 2rem);
+    width: 100%;
+    max-width: 1400px;
+    margin-top: 50px;
+}
+.title{
+    width: 100%;
+    height: 15%;
+    max-width: 90%;
+    margin-bottom: 5px;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 2.5rem;
+}
+.imageWrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 490px;
+    width: 100%;
+    max-height: 300px;
+}
+.img{
+    max-width: 490px;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+}
+.text{
+    width: 100%;
+    height: 85%;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 1rem;
+}
+
+.block:nth-child(odd) .imageWrap{
+    float: left;
+    margin: 0 30px 5px 0;
+}
+.block:nth-child(even) .imageWrap{
+    float: right;
+    margin: 0 0 5px 30px;
+}
+
+.block:last-child{
+    margin-bottom: 50px;
+}
+@media only screen and (min-width : 280px) and (max-width : 480px) {
+    .block:nth-child(n) .imageWrap{
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        max-width: 100%;
+    }
+}

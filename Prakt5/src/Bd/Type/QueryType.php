@@ -62,7 +62,7 @@ class QueryType extends ObjectType
                     ],
 					'Delete' => [
                         'type' => Types::listOf(Types::user()),
-                        'description' => 'Добавление пользователей',
+                        'description' => 'Удаление пользователей',
 						'args' => [
 							'id' => ['type' => Types::int()]
 						],
@@ -77,7 +77,7 @@ class QueryType extends ObjectType
                     ],
 					'Patch' => [
                         'type' => Types::listOf(Types::user()),
-                        'description' => 'Добавление пользователей',
+                        'description' => 'Изменение пользователей',
 						'args' => [
 							'old_id' => ['type' => Types::int()],
 							'new_id' => ['type' => Types::int()],
